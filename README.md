@@ -33,12 +33,12 @@ to install it.
 Add javascript file to the application.js file
 //= require highcharts
 
-In controller
-Create an object of LazyHighCharts::HighChart
+###In controller
+```Create an object of LazyHighCharts::HighChart
 
-In View
+###In View
 Just pass the “div id” created and the “chart object”, where to display the chart
-<%= high_chart(“div_id”, @chart) %>
+```<%= high_chart(“div_id”, @chart) %>
 
 ## Contributing
 
